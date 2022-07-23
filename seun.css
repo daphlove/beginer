@@ -1,0 +1,6 @@
+.action ol{
+    list-style-image: url(./avatar.png);
+}
+.tragedy ol{
+    list-style-image: url(./image/avatar\ 2.png);
+}

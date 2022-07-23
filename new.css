@@ -1,0 +1,81 @@
+html{
+    font-size: 20px;
+}
+main{
+    width: 80% ;
+    margin: 0 auto;
+}
+h2,h3{
+    text-transform: capitalize;
+    text-align: center;
+    color: #EBFA05;
+    font-size: 3rem;
+    
+}
+body{
+    background-color:black;
+
+}
+section{
+    font-size: 1rem;
+}
+ol,p{
+    color: #EBFA05;
+    font-size: 1em;
+}
+img{
+    height: 350px;
+    width: 300px;
+    border: 2em double #05EBFA;
+}
+footer a{
+    color: azure;text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    flex: 1;text-decoration: none;
+    text-align: center;
+    color:azure;
+    padding: 2em 0;
+    
+}
+nav a:hover{
+    background-color: black;
+    border-bottom: 0.5em dashed #EBFA05 ;
+    text-transform: capitalize;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #EBFA05;
+}
+
+#domestic{
+    background: linear-gradient(180deg,green 35%, cyan 35%, cyan 65% , blue 65%);
+}
+
+#wild{
+    background: repeating-radial-gradient(white 10%, blue 11%);
+}
+#aquatic{
+    background:repeating-linear-gradient(brown 20%,purple 21%) ;
+}
+
+#domestic img{
+    border-radius: 50%;
+    border-right: 2em solid transparent;
+    border-left: 2em solid transparent;
+}
+section:last-of-type{
+    background: repeating-linear-gradient(brown 20%,purple 21% );
+    color: #EBFA05;
+}
+dt{
+    background: black;
+    padding: 1em;
+    margin-top: 0.5em;
+    text-align: center;
+}
