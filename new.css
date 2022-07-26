@@ -1,6 +1,6 @@
 html{
     font-size: 20px;
-}
+    }
 main{
     width: 80% ;
     margin: 0 auto;
@@ -74,8 +74,12 @@ section:last-of-type{
     color: #EBFA05;
 }
 dt{
-    background: black;
+    background:azure;
     padding: 1em;
     margin-top: 0.5em;
+ 
     
+}
+dd{
+    color: azure;
 }
